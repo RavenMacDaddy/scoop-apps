@@ -5,6 +5,7 @@
     "license": "Freeware",
     "url": "https://de1-dl.techpowerup.com/files/NVCleanstall_1.9.0.exe",
     "hash": "md5:c3a1be6f1579e52589f3517eefea2423",
+	"bin": "NVCleanstall_1.9.0.exe",
     "shortcuts": [
         [
             "NVCleanstall_1.9.0.exe",
