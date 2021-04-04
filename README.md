@@ -1,1 +1,1 @@
-# scoop-apps
+Scoop apps
