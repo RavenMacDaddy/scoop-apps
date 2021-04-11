@@ -1,6 +1,11 @@
 {
     "homepage": "https://github.com/kondrak/vkQuake2",
-    "description": "This is the official Quake 2 code v3.21 with Vulkan support and mission packs included. The goal of this project is to maintain as much compatibility as possible with the original game - just pure, vanilla Quake 2 experience as we knew it back in 1997.",    
+    "description": [ 
+        "",
+        "This is the official Quake 2 code v3.21 with Vulkan support and mission packs included. 
+        "",
+        "The goal of this project is to maintain as much compatibility as possible with the original game - just pure, vanilla Quake 2 experience as we knew it back in 1997."
+        ]
     "version": "1.5.7",
     "license": "GPL-2.0-or-later",
     "architecture": {
