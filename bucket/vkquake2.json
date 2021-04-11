@@ -66,6 +66,7 @@
         }
     },
     "notes": [
+        "",
         "Place .pak, model and video files into:",
         "",
         "- Quake II:",
@@ -86,6 +87,8 @@
         "",
         "This project uses Miniaudio for music playback if the original game CD is not available.",
         "For standard Quake 2, copy all tracks into the baseq2/music directory following the trackXX.[ogg,flac,mp3,wav] naming scheme (so track02.ogg, track03.ogg... for OGG files etc.).",
-        "For Ground Zero and The Reckoning, copy the tracks to rogue/music and xatrix/music directories respectively."
+        "For Ground Zero and The Reckoning, copy the tracks to rogue/music and xatrix/music directories respectively.",
+        "",
+        ""
     ]
 }
