@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/kondrak/vkQuake2",
-    "description": "This is the official Quake II code v3.21 with Vulkan support and mission packs included. The goal of this project is to maintain as much compatibility as possible with the original game - just pure, vanilla Quake 2 experience as we knew it back in 1997. There are, however, a few notable differences that made the cut for various reasons, so check out the homepage for all the details.",
+    "description": "This is the official Quake II code v3.21 with Vulkan support and mission packs included. The goal of this project is to maintain as much compatibility as possible with the original game - just pure, vanilla Quake 2 experience as we knew it back in 1997. There are, however, a few notable differences that made the cut for various reasons, so check out the website below for all the details.",
     "version": "1.5.7",
     "license": "GPL-2.0-or-later",
     "architecture": {
@@ -96,6 +96,8 @@
         "For standard Quake 2, copy all tracks into the baseq2/music directory following the trackXX.[ogg,flac,mp3,wav] naming scheme (so track02.ogg, track03.ogg... for OGG files etc.).",
         "",
         "For Ground Zero and The Reckoning, copy the tracks to rogue/music and xatrix/music directories respectively.",
+        "",
+        "Tip: Create a soft symbolic link to the music directory if you want to save space.",
         "",
         "",
         ""
