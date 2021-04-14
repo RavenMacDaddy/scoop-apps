@@ -1,5 +1,6 @@
 {
 	"homepage": "https://github.com/finalburnneo/FBNeo",
+	"description": "Emulator for Arcade Games & select consoles.",
 	"version": "1.0.0.0",
 	"license": { 
 			"url": "https://github.com/finalburnneo/FBNeo/blob/master/src/license.txt"	
