@@ -17,7 +17,6 @@
         }
     },
     "persist": [
-        "configuration.bml",
         "settings.bml",
         "Database",
         "Firmware",
