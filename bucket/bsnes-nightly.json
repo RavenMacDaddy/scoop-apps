@@ -1,0 +1,28 @@
+{
+    "homepage": "https://bsnes.dev/",
+    "description": "A Super Nintendo (Super Famicom) emulator, originally developed by Near, which focuses on performance, features, and ease of use.",
+    "license": "GPL-3.0-or-later",
+    "version": "nightly",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip",
+            "extract_dir": "bsnes-nightly",
+            "bin": "bsnes-nightly",
+            "shortcuts": [
+                [
+                    "bsnes.exe",
+                    "bsnes"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings.bml\")) {",
+        "    New-Item \"$dir\\settings.bml\" -Type File | Out-Null",
+        "}"
+    ],
+    "persist": [
+        "Firmware",
+        "settings.bml"
+    ]
+}
