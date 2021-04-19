@@ -16,10 +16,5 @@
             ]
         }
     },
-    "persist": [
-        "settings.bml",
-        "Database",
-        "Firmware",
-        "Shaders"
-    ]
+    "persist": "settings.bml"
 }
