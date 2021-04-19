@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip",
             "extract_dir": "bsnes-nightly",
-            "bin": "bsnes-nightly",
+            "bin": "bsnes.exe",
             "shortcuts": [
                 [
                     "bsnes.exe",
@@ -16,13 +16,11 @@
             ]
         }
     },
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\settings.bml\")) {",
-        "    New-Item \"$dir\\settings.bml\" -Type File | Out-Null",
-        "}"
-    ],
     "persist": [
+        "configuration.bml",
+        "settings.bml",
+        "Database",
         "Firmware",
-        "settings.bml"
+        "Shaders"
     ]
 }
