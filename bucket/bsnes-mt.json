@@ -15,5 +15,7 @@
             ]
         }
     },
-    "persist": "settings.bml"
+    "persist": "settings.bml",
+    "checkver": "github",
+    "autoupdate": "https://github.com/Marat-Tanalin/bsnes-mt/releases/download/$version/bsnes-mt-$version.7z"
 }
