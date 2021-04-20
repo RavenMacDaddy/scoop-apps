@@ -1,5 +1,5 @@
 {
-    "homepage": "https://tanalin.com/en/projects/bsnes-mt/",
+    "homepage": "https://github.com/Marat-Tanalin/bsnes-mt",
     "description": "bsnes-mt is an improved version of bsnes — an accurate emulator of the 16-bit game console SNES (Super Nintendo). Pixel-perfect scaling, PNG screenshots, built-in hotkeys, better usability, and more.",
     "license": "MIT-or-GPL-3.0",
     "version": "1.3.3r3",
