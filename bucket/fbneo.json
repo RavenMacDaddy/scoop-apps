@@ -24,6 +24,6 @@
         ""
     ],
     "persist": [
-        "roms\arcade"
+        "roms\\arcade"
     ]
 }
