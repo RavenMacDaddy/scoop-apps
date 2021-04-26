@@ -24,6 +24,13 @@
         ""
     ],
     "persist": [
-        "roms\\arcade"
+        "avi",
+        "config",
+        "neocdiso",
+        "recordings",
+        "roms",
+        "savestates",
+        "screenshots",
+        "support"
     ]
 }
