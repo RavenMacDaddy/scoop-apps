@@ -18,6 +18,7 @@
     },
     "persist": [
         "cfg",
+        "diff",
         "ini",
         "inp",
         "memcard",
