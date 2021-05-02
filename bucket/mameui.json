@@ -24,9 +24,7 @@
         "memcard",
         "nvram",
         "snap",
-        "sta",
-        "mameui.ini",
-        "mame_g.ini"
+        "sta"
     ],
     "checkver": {
         "regex": "MAMEUI v\\.([\\d]+) Download",
