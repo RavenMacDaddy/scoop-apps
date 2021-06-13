@@ -1,7 +1,7 @@
 {
     "version": "8.0",
     "description": "Text and source code editor.",
-    "homepage": "https://notepad-plus-plus.org/",
+    "homepage": "https://github.com/notepad-plus-plus/notepad-plus-plus",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
