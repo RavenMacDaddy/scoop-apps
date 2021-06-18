@@ -68,12 +68,5 @@
         "",
         "",
         ""
-    ],
-    "checkver": {
-        "re": "Yamagi Quake II version <strong>(\\d+\\.\\d+)</strong> was released"
-    },
-    "autoupdate": {
-        "url": "https://deponie.yamagi.org/quake2/windows/quake2-$version.zip",
-        "extract_dir": "quake2-$version"
-    }
+    ]
 }
