@@ -70,8 +70,7 @@
         ""
     ],
     "checkver": {
-        "url": "https://deponie.yamagi.org/quake2/windows/",
-        "regex": "quake2-(?<ver>[\d\.\d?(\w)]+).zip<\/a>(?![\s\S]*([\d\.\w]+)\.zip<\/a>)"
+        "regex": "Yamagi Quake II version <strong>(\\d+\\.\\d+\\d+)</strong> was released"
     },
     "autoupdate": {
         "url": "https://deponie.yamagi.org/quake2/windows/quake2-$version.zip",
