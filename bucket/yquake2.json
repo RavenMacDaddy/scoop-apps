@@ -70,7 +70,7 @@
         ""
     ],
     "checkver": {
-        "regex": "Yamagi Quake II version \\d+\\.\\d+ was released"
+        "regex": "Yamagi Quake II version <strong>\\d+\\.\\d+</strong> was released"
     },
     "autoupdate": {
         "url": "https://deponie.yamagi.org/quake2/windows/quake2-$version.zip",
