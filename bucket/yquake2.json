@@ -70,8 +70,7 @@
         ""
     ],
     "checkver": {
-        "homepage": "https://github.com/yquake2/yquake2",
-        "checkver": "github"
+        "github": "https://github.com/yquake2/yquake2"
     },
     "autoupdate": {
         "url": "https://deponie.yamagi.org/quake2/windows/quake2-$version.zip",
