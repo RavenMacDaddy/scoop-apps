@@ -30,6 +30,5 @@
                 "url": "https://github.com/Codectory/AutoHDR/releases/download/$version/Release_AutoHDR_$version_x86.zip"
             }
         }
-    },
-    "persist": "UserSettings.json"
+    }
 }
