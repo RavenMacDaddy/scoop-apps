@@ -42,7 +42,7 @@
                 "url": "https://github.com/KScl/opentyrian2000/releases/download/v$version/opentyrian2000-x86-Release.zip",
             }
         }
-    }
+    },
     "notes": [
     "",
     "OpenTyrian2000 requires the Tyrian 2000 data files.",
