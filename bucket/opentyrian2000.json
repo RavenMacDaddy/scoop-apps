@@ -2,7 +2,7 @@
     "homepage": "https://github.com/KScl/opentyrian2000",
     "description": "OpenTyrian2000 is an open-source port of the DOS game Tyrian",
     "license": "GPL-2.0-only",
-    "version": "2000.20200917",
+    "version": "2000.20200918",
     "architecture": {
         "64bit": {
             "url": "https://github.com/KScl/opentyrian2000/releases/download/v2000.20200917/opentyrian2000-x64-Release.zip",
