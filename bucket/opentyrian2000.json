@@ -43,6 +43,11 @@
             }
         }
     },
+    "persist": [
+        "tyrian.sav",
+        "tyrian.cfg",
+        "opentyrian.cfg"
+    ],
     "notes": [
     "",
     "OpenTyrian2000 requires the Tyrian 2000 data files.",
