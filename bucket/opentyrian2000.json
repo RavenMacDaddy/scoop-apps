@@ -1,0 +1,55 @@
+{
+    "homepage": "https://github.com/KScl/opentyrian2000",
+    "description": "OpenTyrian2000 is an open-source port of the DOS game Tyrian",
+    "license": "GPL-2.0-only",
+    "version": "2000.20200917",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/KScl/opentyrian2000/releases/download/v2000.20200917/opentyrian2000-x64-Release.zip",
+            "hash": "bf12872fc7a920f3ff6ad82857776e88b8df75631b4b5a1d9f9d84ad97d1505f",
+            "extract_dir": "opentyrian2000"
+        },
+        "32bit": {
+            "url": "https://github.com/KScl/opentyrian2000/releases/download/v2000.20200917/opentyrian2000-x86-Release.zip",
+            "hash": "4a775ebd59274bdd0753ee953e7e6fbfd8fa61cd084e63a3dfa61cbd214f96f2",
+            "extract_dir": "opentyrian2000"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\tyrian.sav\")) {",
+        "   New-Item -ItemType File \"$dir\\tyrian.sav\" | Out-Null",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\tyrian.cfg\")) {",
+        "   New-Item -ItemType File \"$dir\\tyrian.cfg\" | Out-Null",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\opentyrian.cfg\")) {",
+        "   New-Item -ItemType File \"$dir\\opentyrian.cfg\" | Out-Null",
+        "}",
+    ],
+    "shortcuts": [
+        [
+            "opentyrian2000.exe",
+            "OpenTyrian2000"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/KScl/opentyrian2000/releases/download/v$version/opentyrian2000-x64-Release.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/KScl/opentyrian2000/releases/download/v$version/opentyrian2000-x86-Release.zip",
+            }
+        }
+    }
+    "notes": [
+    "",
+    "OpenTyrian2000 requires the Tyrian 2000 data files.",
+    "",
+    "Thankfully, the game was released as freeware by one of the original developers - Jason Emery - in 2004; https://www.camanis.net/tyrian/tyrian2000.zip",
+    "",
+    "It's also available at GOG here: https://www.gog.com/game/tyrian_2000",
+    ""
+    ]
+}
