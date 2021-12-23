@@ -16,9 +16,6 @@
         }
     },
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\tyrian.sav\")) {",
-        "   New-Item -ItemType File \"$dir\\tyrian.sav\" | Out-Null",
-        "}",
         "if (!(Test-Path \"$persist_dir\\tyrian.cfg\")) {",
         "   New-Item -ItemType File \"$dir\\tyrian.cfg\" | Out-Null",
         "}",
