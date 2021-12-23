@@ -52,6 +52,10 @@
     "Thankfully, the game was released as freeware by one of the original developers - Jason Emery - in 2004; https://www.camanis.net/tyrian/tyrian2000.zip",
     "",
     "It's also available at GOG here: https://www.gog.com/game/tyrian_2000",
+    "",
+    "Note that you'll have to manually persist (make a hardlink of) the 'tyrian.sav' file after running the app for the first time.",
+    "",
+    "There are two reasons for this: 1. The app won't execute if there's an empty tyrian.sav file present, hence why it isn't persisted in the first place. 2. Without persisting it, you won't always have your save data.",
     ""
     ]
 }
