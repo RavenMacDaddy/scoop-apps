@@ -21,7 +21,12 @@
             "DOSBox Staging"
         ]
     ],
-    "persist": "dosbox-staging.conf",
+    "persist": [
+        "dosbox-staging.conf",
+        "glshaders",
+        "mt32-roms",
+        "soundfonts"
+    ],
     "checkver": {
         "github": "https://github.com/dosbox-staging/dosbox-staging"
     },
