@@ -7,7 +7,7 @@
         "",
         "Download the corresponding DLLs from http://raine.1emulation.com/download/latest.html - basically for either 32-bit or 64-bit Windows operating systems.",
         "",
-        "Once downloaded, extract all of them to %SystemRoot%\System32 (normally C:\Windows\System32).",
+        "Once downloaded, extract all of them to the System32 dir under your Windows dir.",
         ""
     ],
     "architecture": {
