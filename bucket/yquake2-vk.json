@@ -14,7 +14,7 @@
     },
     "uninstaller": {
         "script": [
-            "'ref_vk.dll' {",
+            "'ref_vk.dll' | ForEach-Object {",
             "   if (Test-Path \"$(versiondir 'yquake2' 'current' $global)\\$_\") {",
             "       Remove-Item \"$(versiondir 'yquake2' 'current' $global)\\$_\"",
             "   }",
