@@ -8,7 +8,7 @@
     "depends": "yquake2",
     "url": "https://github.com/yquake2/ref_vk/releases/download/v1.0.2/ref_vk-1.0.2.zip",
     "hash": "d5b1a40bce4ba90fcc90c64797dc4a3a83ec99b4100d3cba9915f9c47b12a266",
-    "extract_dir": "ref_vk-1.0.2"
+    "extract_dir": "ref_vk-1.0.2",
     "installer": {
         "script": "Copy-Item \"$dir\\ref_vk.dll\" \"$(versiondir 'yquake2' 'current' $global)\" -Force"
     },
