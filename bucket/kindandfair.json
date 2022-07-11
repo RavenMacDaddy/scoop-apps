@@ -5,7 +5,7 @@
     "license": "Unknown",
     "notes": [
         "",
-        "You can apply other patches as well (like IPS and PPF files) in the process by placing them in the $persist_dir\\Data\\<name of the game>\\Patches dir.",
+        "You can apply other patches as well (like IPS and PPF files) in the process by placing them in the '$persist_dir\\Data\\<name of the game>\\Patches' dir.",
         ""
     ],
     "url": "https://github.com/Lakifume/SotnKindAndFair/releases/download/1.5.2/KindAndFair.zip",
