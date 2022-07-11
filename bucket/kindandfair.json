@@ -5,6 +5,18 @@
     "license": "Unknown",
     "url": "https://github.com/Lakifume/SotnKindAndFair/releases/download/1.5.2/KindAndFair.zip",
     "hash": "3f0b57285ad5b6ef0ca75321b88a88d55fa98aa4df2c83e890f59d33c217729a",
+    "shortcuts": [
+        [
+            "kindandfair.exe",
+            "KindAndFair"
+        ]
+    ],
+    "persist": [
+        "Shaders",
+        "Data\\config.ini",
+        "Data\\Dissonance\\Patches",
+        "Data\\Symphony\\Patches"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Lakifume/SotnKindAndFair/releases/download/$version/KindAndFair.zip"
