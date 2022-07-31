@@ -5,7 +5,9 @@
     "license": "GPL-3.0-or-later",
     "notes": [
         "",
-        "You can run 'Import.exe' and choose to download the Shareware version, however it's recommended to buy the full version on GOG here: https://www.gog.com/game/jazz_jackrabbit_2_collection",
+        "First thing you need to do is import some form of game data.",
+        "",
+        "You can run 'Import.exe' in the app dir and choose to download the Shareware version, however it's recommended to buy the full version on GOG here: https://www.gog.com/game/jazz_jackrabbit_2_collection",
         "",
         "See the instructions when running 'Import.exe' which describes how to import the files of the full version.",
         "",
@@ -23,6 +25,12 @@
     "url": "https://github.com/deathkiller/jazz2/releases/download/0.7.3/Jazz2_0.7.3_Desktop.zip",
     "hash": "d632139360781a534fc8d10ac17ca3370ef5bf846069f098f88220f0c98fc9c4",
     "extract_dir": "jazz2",
+    "shortcuts": [
+        [
+            "Jazz2.exe",
+            "Jazz² Resurrection"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/deathkiller/jazz2"
     },
