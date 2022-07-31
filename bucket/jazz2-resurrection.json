@@ -25,8 +25,8 @@
     "url": "https://github.com/deathkiller/jazz2/releases/download/0.7.3/Jazz2_0.7.3_Desktop.zip",
     "hash": "d632139360781a534fc8d10ac17ca3370ef5bf846069f098f88220f0c98fc9c4",
     "extract_dir": "Jazz2",
-    "pre_install": "pre_install": [
-        "if (!(Test-Path \"$dir\\Jazz2.settings\")) {",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Jazz2.settings\")) {",
         "   New-Item -ItemType File \"$dir\\Jazz2.settings\" | Out-Null",
         "}"
     ],
