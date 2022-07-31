@@ -13,6 +13,8 @@
         "",
         "Either that, or simply drag 'Jazz2.exe' from your installation of the full version and drop it onto 'Import.exe' (video tutorial: https://www.youtube.com/watch?v=ibUn20raRMo).",
         "",
+        "IMPORTANT: Currently, game data has to imported when the app is updated, according to the instructions above.",
+        "",
         "Tip regarding the full version:",
         "",
         "1. First install The Secret Files release",
@@ -36,12 +38,7 @@
             "Jazz² Resurrection"
         ]
     ],
-    "persist": [
-        "Jazz2.settings",
-        "Content\\Episodes",
-        "Content\\Music",
-        "Content\\Tilesets"
-    ],
+    "persist": "Jazz2.settings",
     "checkver": {
         "github": "https://github.com/deathkiller/jazz2"
     },
