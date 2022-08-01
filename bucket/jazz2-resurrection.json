@@ -40,7 +40,7 @@
     ],
     "persist": [
         "Jazz2.settings",
-        "Content\Main.dz",
+        "Content\\Main.dz",
         "Content\\Episodes",
         "Content\\Music",
         "Content\\Tilesets"
