@@ -3,9 +3,6 @@
     "description": "Compress, or uncompress files, detect duplicates, catalog, manage CHD and DAT data, sort for Everdrive, or create 1G1R sets - all with one app",
     "homepage": "https://github.com/drakewill-CRL/ROMSorter",
     "license": "MIT",
-    "depends": {
-        "Microsoft Windows Desktop Runtime - LTS": "extras/windowsdesktop-runtime-lts"
-    },
     "url": "https://github.com/drakewill-CRL/ROMSorter/releases/download/release5/ROMSorter.zip",
     "hash": "1ba6738dc7c9bedb4736f5e00ed94516e1c1cb750a7bcdd0801ada2557ffac40",
     "shortcuts": [
