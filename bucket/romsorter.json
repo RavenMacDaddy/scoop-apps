@@ -13,12 +13,8 @@
         ""
     ],
     "suggest": {
-        {
-            "Sudo": "main/sudo"
-        },
-        {
-            ".NET6": "extras/windowsdesktop-runtime-lts"
-        }
+        "Sudo": "main/sudo",
+        ".NET6": "extras/windowsdesktop-runtime-lts"
     },
     "url": "https://github.com/drakewill-CRL/ROMSorter/releases/download/release5/ROMSorter.zip",
     "hash": "1ba6738dc7c9bedb4736f5e00ed94516e1c1cb750a7bcdd0801ada2557ffac40",
