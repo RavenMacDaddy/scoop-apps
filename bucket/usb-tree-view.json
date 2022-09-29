@@ -14,8 +14,10 @@
         }
     },
     "bin": [
-        "UsbTreeView.exe",
-        "usbtreeview"
+        [
+            "UsbTreeView.exe",
+            "usbtreeview"
+        ]
     ],
     "shortcuts": [
         [
