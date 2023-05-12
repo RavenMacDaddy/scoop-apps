@@ -15,7 +15,8 @@
     ],
     "persist": [
         "config.properties",
-        "database.xml"
+        "database.xml",
+        "installedMaps.xml"
     ],
     "checkver": {
         "url": "https://github.com/hrehfeld/QuakeInjector/tags",
