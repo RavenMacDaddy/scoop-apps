@@ -1,9 +1,9 @@
 {
     "version": "3.3.4",
     "description": "Graphical program used to map keyboard buttons and mouse controls to a gamepad.",
-    "homepage": "https://github.com/AntiMicro/antimicro",
+    "homepage": "https://github.com/AntiMicroX/antimicrox",
     "license": "GPL-3.0-only",
-    "notes": "AntiMicroX is a fork of AntiMicro. The original project is no longer being developed.",
+    "notes": "AntiMicroX is a fork of AntiMicro (https://github.com/AntiMicro/antimicro). The original project is no longer being developed.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.4/antimicrox-3.3.4-PortableWindows-AMD64.zip",
