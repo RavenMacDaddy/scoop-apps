@@ -33,7 +33,7 @@
             ]
         }
     },
-    "persist": "GlowSettings.ini"
+    "persist": "GlowSettings.ini",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/roiness/glow/releases/download/v$version/Glow_v$version.zip",
