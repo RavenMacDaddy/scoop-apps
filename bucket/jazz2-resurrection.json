@@ -11,7 +11,7 @@
         "",
         "Copy the corresponding game data to the \"$persist_dir\\Source\" dir.",
         "",
-        "Once that's done, use the shortcut (i.e., version of the app) that runs the best on your particular system; standard, AVX2 or SDL2."
+        "Once that's done, use the shortcut (i.e., version of the app) that runs the best on your particular system; standard, AVX2 or SDL2.",
         "",
         "Tip regarding the full version of the game:",
         "",
@@ -26,10 +26,10 @@
     "hash": "13cca3c706373ea03ed1e4bc92ad33f322299068ef15beb7d4a61c68fa23702e",
     "architecture": {
         "64bit": {
-            "extract_dir": "x64",
+            "extract_dir": "x64"
         },
         "32bit": {
-            "extract_dir": "x86",
+            "extract_dir": "x86"
         }
     },
     "pre_install": [
@@ -41,15 +41,11 @@
         [
             "Jazz2.exe",
             "Jazz² Resurrection"
-        ]
-    ],
-    [
+        ],
         [
             "Jazz2_avx2.exe",
             "Jazz² Resurrection (AVX2)"
-        ]
-    ],
-    [
+        ],
         [
             "Jazz2_sdl2.exe",
             "Jazz² Resurrection (SDL2)"
