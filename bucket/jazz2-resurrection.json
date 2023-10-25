@@ -35,7 +35,7 @@
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\Jazz2.config\")) {",
         "   New-Item \"$dir\\Jazz2.config\" -Type File | Out-Null",
-        "}",
+        "}"
     ],
     "shortcuts": [
         [
@@ -52,10 +52,8 @@
         ]
     ],
     "persist": [
-        [
-            "Source",
-            "Jazz2.config"
-        ]
+        "Source",
+        "Jazz2.config"
     ],
     "checkver": {
         "github": "https://github.com/deathkiller/jazz2"
