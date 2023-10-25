@@ -34,8 +34,8 @@
     },
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\Jazz2.config\")) {",
-        "   New-Item -ItemType File \"$dir\\Jazz2.config\" | Out-Null",
-        "}"
+        "   New-Item \"$dir\\Jazz2.config\" -Type File | Out-Null",
+        "}",
     ],
     "shortcuts": [
         [
