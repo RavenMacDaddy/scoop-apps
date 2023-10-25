@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "notes": [
         "",
-        "First you need to provide some form of game data.",
+        "First, you need to provide some form of game data.",
         "",
         "The original shareware version works (i.e., NOT the shareware version of The Secret Files release), though it's recommended to buy the full version on GOG here: https://www.gog.com/game/jazz_jackrabbit_2_collection",
         "",
@@ -53,8 +53,8 @@
     ],
     "persist": [
         [
-            "Jazz2.config",
-            "Source"
+            "Source",
+            "Jazz2.config"
         ]
     ],
     "checkver": {
