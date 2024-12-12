@@ -20,7 +20,6 @@
             "extract_dir": "arm64"
         }
     },
-    "bin": "UsbTreeView.exe",
     "shortcuts": [
         [
             "UsbTreeView.exe",
